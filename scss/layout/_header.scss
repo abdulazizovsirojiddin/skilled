@@ -1,0 +1,41 @@
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.4rem;
+    align-items: center;
+    a{
+        padding: 1.4rem 3.2rem;
+        font-family: $font-family;
+        font-weight: 700;
+        background-color: $color-light-black;
+        color: $color-white;
+        font-size: $font-size-pbig;
+        line-height: 1.56;
+        border-radius: 2.8rem;
+    }
+    
+    a:hover{
+        background-color: $color-grey;
+    }
+    a:active{
+        opacity: 0.5;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .header__container{
+        a{
+        padding: 0.9rem 2.4rem 1.1rem;
+        font-size: $font-size-psamll;
+    }
+    img{
+        width: 8.9rem;
+        height: 3.5rem;
+    }
+    }
+    
+}
+@media screen and (max-width:375px) {
+    
+}

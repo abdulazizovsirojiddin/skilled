@@ -1,0 +1,44 @@
+footer{
+    background-color: $color-light-black;
+    .footer__container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+    align-items: center;
+    a{
+        padding: 1.4rem 3.2rem;
+        font-family: $font-family;
+        font-weight: 700;
+        background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+        color: $color-white;
+        font-size: $font-size-pbig;
+        line-height: 1.56;
+        border-radius: 2.8rem;
+    }
+    
+    a:hover{
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    }
+    a:active{
+        opacity: 0.5;
+    }
+
+}
+}
+@media screen and (max-width:768px) {
+    .footer__container{
+        a{
+        padding: 0.9rem 2.4rem 1.1rem 2.4rem !important;
+        font-size: $font-size-psamll !important;
+        }
+     img{
+        width: 8.9rem;
+        height: 3.5rem;
+    }
+    }
+    
+}
+@media screen and (max-width:375px) {
+    
+}
